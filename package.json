@@ -1,0 +1,14 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "import.js",
+  "scripts": {
+    "import": "node import.js",
+    "clean": "rm -rf src && mkdir src",
+    "postinstall": "npm run clean && npm run import"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
